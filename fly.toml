@@ -1,4 +1,4 @@
-# fly.toml file generated for prawie-backend on 2023-02-15T00:01:54-05:00
+# fly.toml file generated for prawie-backend on 2023-02-15T01:00:24-05:00
 
 app = "prawie-backend"
 kill_signal = "SIGINT"
@@ -6,13 +6,14 @@ kill_timeout = 5
 processes = []
 
 [env]
+  PORT = "1337"
 
 [experimental]
   auto_rollback = true
 
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 1337
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
