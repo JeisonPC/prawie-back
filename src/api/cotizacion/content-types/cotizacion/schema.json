@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cotizacions",
+  "info": {
+    "singularName": "cotizacion",
+    "pluralName": "cotizacions",
+    "displayName": "Cotizacion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "modelo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

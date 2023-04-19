@@ -1,5 +1,5 @@
 //Development
-/* module.exports = ({ env }) => ({
+module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
@@ -11,7 +11,7 @@
       ssl: env.bool('DATABASE_SSL', false),
     },
   },
-}); */
+});
 
 //Production
 /* module.exports = ({ env }) => ({
@@ -29,7 +29,7 @@
 }); */
 
 
-const parse = require("pg-connection-string").parse;
+/* const parse = require("pg-connection-string").parse;
 const config = parse(process.env.DATABASE_URL);
 module.exports = () => ({
   connection: {
@@ -46,3 +46,4 @@ module.exports = () => ({
   },
 });
 
+ */
