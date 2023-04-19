@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * cotizacion service
+ * cotization service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::cotizacion.cotizacion');
+module.exports = createCoreService('api::cotization.cotization');

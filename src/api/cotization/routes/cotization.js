@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * cotizacion router
+ * cotization router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::cotizacion.cotizacion');
+module.exports = createCoreRouter('api::cotization.cotization');

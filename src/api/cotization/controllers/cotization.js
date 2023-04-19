@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * cotizacion controller
+ * cotization controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::cotizacion.cotizacion');
+module.exports = createCoreController('api::cotization.cotization');
