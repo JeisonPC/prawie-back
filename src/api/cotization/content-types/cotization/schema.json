@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cotization",
     "pluralName": "cotizations",
-    "displayName": "Cotization"
+    "displayName": "Cotization",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,10 @@
     "email": {
       "type": "email"
     },
-    "nombre": {
+    "name": {
       "type": "string"
     },
-    "modelo": {
+    "model": {
       "allowedTypes": [
         "images",
         "files",
@@ -25,10 +26,8 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
-    },
-    "precio": {
-      "type": "decimal"
+      "multiple": true,
+      "required": false
     }
   }
 }
