@@ -14,7 +14,7 @@ module.exports = [
       },
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337', 'https://prawie.com']
+      origin: ['http://localhost:1337', 'https://prawie.com', 'https://prawie-backend.fly.dev']
     },
   },
   'strapi::cors',
